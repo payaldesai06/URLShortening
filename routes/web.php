@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Shortened URL endpoints
 Route::get('/', function () {
-    return view('welcome');
+  return view('short-url');
 });
+Route::post('encode', 'App\Http\Controllers\UrlController@encode')->name('url.encode');
+Route::post('decode', 'App\Http\Controllers\UrlController@decode')->name('url.decode');
