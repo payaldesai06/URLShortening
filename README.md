@@ -24,6 +24,9 @@ cd URLShortening
 Run the following command to install Laravel's dependencies:
 
 composer install
+
+Start the Laravel Development Server
+
 php artisan serve
 
 By default, this will run the application at http://127.0.0.1:8000.
