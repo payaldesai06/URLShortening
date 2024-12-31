@@ -15,9 +15,8 @@ Before running the project, make sure you have the following installed on your m
 
 ### 1. Clone the Repository
 
-Clone this repository to your local machine.
+Clone this repository to your local machine:
 
-```bash
 git clone https://github.com/payaldesai06/URLShortening.git
 cd URLShortening
 
@@ -25,7 +24,7 @@ Run the following command to install Laravel's dependencies:
 
 composer install
 
-Start the Laravel Development Server
+Start the Laravel Development Server:
 
 php artisan serve
 
